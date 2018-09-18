@@ -1,0 +1,146 @@
+.swiss-body {
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #183b69;
+}
+
+.outerdiv {
+    height: 999px;
+    width: 700px;
+    margin: 22px auto;
+    position: relative;
+    background-color: #183b69;
+}
+
+.maindiv {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    top: 45px;
+    left: 0;
+    right: 0;
+}
+
+#top-text {
+    overflow: hidden;
+    margin-top: 11px;
+}
+
+.text {
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.text > p {
+    color: white;
+    font-family: Helvetica;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#right-text {
+	text-align: right;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+@-webkit-keyframes rotation2 {
+		from {
+				-webkit-transform: rotate(359deg);
+		}
+		to {
+				-webkit-transform: rotate(0deg);
+		}
+}
+
+
+.circles {
+	width: 101px;
+	margin: 2px;
+	position:  absolute;
+}
+
+.circle1 {
+	animation: rotation2 15s infinite linear;
+	top: 10em;
+    left: 6px;
+	box-sizing:  border-box;
+	height: 43em;
+	border-radius: 50%;
+	width: 43em;
+	border: 19px solid white;
+	border-right: 19px solid transparent;
+}
+
+.circle2 {
+	animation: rotation 17s infinite linear;
+	top: 197px;
+    left: 48px;
+	box-sizing: border-box;
+	height: 38em;
+	border-radius: 50%;
+	width: 38em;
+	border: 15px solid white;
+	border-right: 15px solid transparent;
+}
+
+.circle3 {animation: rotation2 19s infinite linear;
+	top: 236px;
+    left: 83px;
+	box-sizing: border-box;
+	height: 33em;
+	border-radius: 50%;
+	width: 33em;
+	border: 12px solid white;
+	border-right: 12px solid transparent;
+}
+
+.circle4 {
+	animation: rotation 21s infinite linear;
+	top: 268px;  
+	left: 115px;
+	box-sizing: border-box;
+	height: 29em;
+	border-radius: 50%;
+	width: 29em;
+	border: 9px solid white;
+	border-right: 9px solid transparent;
+}
+
+section {
+    position: absolute;
+    top: 387px;
+    left: 215px;
+    width: 255px;
+    z-index:  10;
+    right: 0;
+    text-align: center;
+    transform: rotate(41deg);
+}
+
+#jensen {
+    top: 531px;
+    left: 276px;
+}
+
+h1 {
+	font-weight: 600;
+    float: left;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 76px;
+    line-height: 83px;
+    margin: 0;
+    letter-spacing: 0;
+}
